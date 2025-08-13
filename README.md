@@ -81,20 +81,21 @@ NextVerify/
  
 ---
 
-###📜 Usage
+### 📜 Usage
 Paste a transaction link or upload a PDF receipt.
 
 The app fetches data via Axios and parses transaction details.
 
 Verification results are displayed instantly with a success or error status.
 
-###🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome!
 Please fork the repository, create a new branch, and submit a pull request.
 
-###📄 License
+### 📄 License
 Distributed under the MIT License.
 See LICENSE for more information.
 
 <p align="center"> Made with ❤️ by <a href="https://github.com/codewithfitse">codewithfitse</a> </p> ```
+
 
