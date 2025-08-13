@@ -63,3 +63,37 @@ Built for **speed**, **accuracy**, and **security** using modern web technologie
 ```bash
 git clone https://github.com/codewithfitse/NextVerify.git
 cd NextVerify
+npm install
+```
+---
+
+NextVerify/
+ ├─ src/
+ │   ├─ components/    # Reusable UI Components
+ │   ├─ pages/         # Main Screens
+ │   ├─ utils/         # PDF parsing & helper functions
+ │   ├─ App.jsx
+ │   └─ main.jsx
+ ├─ public/            # Static assets (logo, images)
+ ├─ package.json
+ ├─ tailwind.config.js
+ └─ vite.config.js
+ 
+---
+
+📜 Usage
+Paste a transaction link or upload a PDF receipt.
+
+The app fetches data via Axios and parses transaction details.
+
+Verification results are displayed instantly with a success or error status.
+
+🤝 Contributing
+Contributions are welcome!
+Please fork the repository, create a new branch, and submit a pull request.
+
+📄 License
+Distributed under the MIT License.
+See LICENSE for more information.
+
+<p align="center"> Made with ❤️ by <a href="https://github.com/codewithfitse">codewithfitse</a> </p> ```
