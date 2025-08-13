@@ -1,86 +1,65 @@
-📜 NextVerify
-NextVerify is a fast and modern web application that validates transaction links by parsing related PDFs and verifying details in real time.
-Built with Vite, Tailwind CSS, and Axios for performance, and powered by a PDF parser for accurate data extraction.
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/codewithfitse/NextVerify">
+    <img src="public/logo.png" alt="Logo" width="120" height="120">
+  </a>
 
-🚀 Features
-✅ Transaction Link Checker — paste a link, get instant validation results.
+  <h3 align="center">NextVerify</h3>
 
-📄 PDF Parsing — extract and analyze transaction data from PDF files.
+  <p align="center">
+    Transaction Link & PDF Verification Tool  
+    <br />
+    <a href="#demo">View Demo</a>
+    ·
+    <a href="https://github.com/codewithfitse/NextVerify/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/codewithfitse/NextVerify/issues">Request Feature</a>
+  </p>
+</p>
 
-⚡ Blazing Fast — powered by Vite for lightning-fast dev & build times.
+---
 
-🎨 Responsive UI — styled with Tailwind CSS for a modern look on all devices.
+## 🏆 Overview
 
-🌐 API Integration — Axios-based HTTP requests for fetching and verifying transaction data.
+**NextVerify** is a **high-performance transaction verification tool** that parses PDF receipts, validates transaction links, and provides instant results with a sleek, responsive UI.  
+Built for **speed**, **accuracy**, and **security** using modern web technologies.
 
-🛠 Tech Stack
-Frontend: Vite + React
+---
 
-Styling: Tailwind CSS
+## 📸 Demo
 
-Networking: Axios
+<p align="center">
+  <img src="public/screenshot.png" alt="App Screenshot" width="800">
+</p>
 
-PDF Processing: pdf-parse or similar library
+---
 
-📦 Installation
-Clone the repository and install dependencies:
+## ✨ Features
 
-bash
-Copy
-Edit
+- 🔍 **Transaction Link Checker** – Paste any transaction link and verify instantly.
+- 📄 **PDF Receipt Parsing** – Extract and validate payment details directly from PDF.
+- ⚡ **Ultra-Fast** – Powered by [Vite](https://vitejs.dev/) for rapid load & build times.
+- 🎨 **Modern UI** – Fully responsive interface styled with [Tailwind CSS](https://tailwindcss.com/).
+- 🔒 **Secure** – Data processed safely with API integration via [Axios](https://axios-http.com/).
+
+---
+
+## 🛠 Tech Stack
+
+| Category     | Technology |
+|--------------|------------|
+| Frontend     | [Vite](https://vitejs.dev/), [React](https://react.dev/) |
+| Styling      | [Tailwind CSS](https://tailwindcss.com/) |
+| Networking   | [Axios](https://axios-http.com/) |
+| PDF Parsing  | [pdf-parse](https://www.npmjs.com/package/pdf-parse) |
+| Deployment   | Vercel / Netlify |
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/codewithfitse/NextVerify.git
 cd NextVerify
-npm install
-💻 Development
-Run the app in development mode:
-
-bash
-Copy
-Edit
-npm run dev
-🏗 Build for Production
-bash
-Copy
-Edit
-npm run build
-Preview the production build:
-
-bash
-Copy
-Edit
-npm run preview
-⚙️ Environment Variables
-Create a .env file in the root directory:
-
-env
-Copy
-Edit
-VITE_API_URL=https://your-api-endpoint.com
-📂 Project Structure
-csharp
-Copy
-Edit
-NextVerify/
- ├─ src/
- │   ├─ components/     # Reusable UI components
- │   ├─ pages/          # App pages
- │   ├─ utils/          # Helper functions (e.g., PDF parsing logic)
- │   ├─ App.jsx
- │   └─ main.jsx
- ├─ public/
- ├─ package.json
- └─ tailwind.config.js
-📜 Usage
-Enter a transaction link in the input field.
-
-The app fetches the related PDF via the API.
-
-The PDF parser extracts relevant transaction details.
-
-Results are displayed with a pass/fail verification status.
-
-🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to improve.
-
-📄 License
-This project is licensed under the MIT License — feel free to use and modify it.
