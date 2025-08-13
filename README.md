@@ -1,12 +1,86 @@
-# React + Vite
+📜 NextVerify
+NextVerify is a fast and modern web application that validates transaction links by parsing related PDFs and verifying details in real time.
+Built with Vite, Tailwind CSS, and Axios for performance, and powered by a PDF parser for accurate data extraction.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+✅ Transaction Link Checker — paste a link, get instant validation results.
 
-Currently, two official plugins are available:
+📄 PDF Parsing — extract and analyze transaction data from PDF files.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚡ Blazing Fast — powered by Vite for lightning-fast dev & build times.
 
-## Expanding the ESLint configuration
+🎨 Responsive UI — styled with Tailwind CSS for a modern look on all devices.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌐 API Integration — Axios-based HTTP requests for fetching and verifying transaction data.
+
+🛠 Tech Stack
+Frontend: Vite + React
+
+Styling: Tailwind CSS
+
+Networking: Axios
+
+PDF Processing: pdf-parse or similar library
+
+📦 Installation
+Clone the repository and install dependencies:
+
+bash
+Copy
+Edit
+git clone https://github.com/codewithfitse/NextVerify.git
+cd NextVerify
+npm install
+💻 Development
+Run the app in development mode:
+
+bash
+Copy
+Edit
+npm run dev
+🏗 Build for Production
+bash
+Copy
+Edit
+npm run build
+Preview the production build:
+
+bash
+Copy
+Edit
+npm run preview
+⚙️ Environment Variables
+Create a .env file in the root directory:
+
+env
+Copy
+Edit
+VITE_API_URL=https://your-api-endpoint.com
+📂 Project Structure
+csharp
+Copy
+Edit
+NextVerify/
+ ├─ src/
+ │   ├─ components/     # Reusable UI components
+ │   ├─ pages/          # App pages
+ │   ├─ utils/          # Helper functions (e.g., PDF parsing logic)
+ │   ├─ App.jsx
+ │   └─ main.jsx
+ ├─ public/
+ ├─ package.json
+ └─ tailwind.config.js
+📜 Usage
+Enter a transaction link in the input field.
+
+The app fetches the related PDF via the API.
+
+The PDF parser extracts relevant transaction details.
+
+Results are displayed with a pass/fail verification status.
+
+🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to improve.
+
+📄 License
+This project is licensed under the MIT License — feel free to use and modify it.
